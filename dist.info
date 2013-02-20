@@ -1,0 +1,41 @@
+type = "x86"
+arch = "Windows"
+author = "Antonio Scuri"
+depends = {
+[[lua ~> 5.1]],
+[[im >= 3.8]],
+[[cd >= 5.5]],
+[[iup >= 3.5]],
+}
+
+desc = "Examples for CD (Canvas Draw) - a platform-independent graphics library."
+version = "5.5"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\iupcdaux.lua]],
+}
+,
+Example = {
+[[share\cd-examples\example\\cdalign.wlua]],
+[[share\cd-examples\example\\cdpdf.lua]],
+[[share\cd-examples\example\\cdtext.wlua]],
+[[share\cd-examples\example\\imagergb.wlua]],
+[[share\cd-examples\example\\iuplua_cdlua.wlua]],
+[[share\cd-examples\example\\iup_dbuffer.wlua]],
+[[share\cd-examples\example\\multitest.lua]],
+[[share\cd-examples\example\\rubberband.wlua]],
+[[share\cd-examples\example\\simpledraw.lua]],
+[[share\cd-examples\example\screencapture.exe]],
+[[share\cd-examples\example\metafile.exe]],
+[[share\cd-examples\example\cdtest.exe]],
+[[share\cd-examples\example\cdtest.led]],
+[[share\cd-examples\example\simple.exe]],
+[[share\cd-examples\example\simple.led]],
+}
+,
+}
+
+license = "Tecgraf Library License/MIT"
+name = "cd-examples"
+url = "http://www.tecgraf.puc-rio.br/cd"
